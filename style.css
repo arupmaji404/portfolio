@@ -1,0 +1,98 @@
+.box1{
+	background-color: lightgreen;
+	text-align: center;
+	margin: 10px 0px;
+	padding: 10px 0px;
+
+}
+h1{
+	color: red;
+}
+.img1{
+	width: 100%;
+}
+.box2{
+	background-image: url("Images/image1.jpg");
+	color: yellow;
+	text-align: center;
+}
+.grid{
+	text-align: center;
+}
+.small_box_first {
+	background-color: yellow;
+	padding: 10px 0px;
+
+}
+.small_box_second {
+	background-color: orange;
+	padding: 10px 0px;
+
+}
+.small_box_third {
+	background-color: lightblue;
+	padding: 10px 0px;
+
+}
+.small_box_forth {
+	background-color: grey;
+	padding: 10px 0px;
+
+}
+.contact_box{
+	background-color: lightgreen;
+	text-align: center;
+	margin: 10px 0px;
+	padding: 10px 0px;
+
+}
+.footer{
+	background-color: black;
+	text-align: center;
+	color: white;
+
+}
+@media (min-width: 700px){
+	.grid {
+ 		display: grid;
+ 		grid-template-columns: 1fr repeat(2,minmax(auto,25em)) 1fr;
+ 	}
+ 	.violet_box{
+	background-color: violet;
+	clear: both;
+	height: 362px;
+	width: 50%;
+	float: left;
+	margin: 10px 0px;
+	padding: 10px 0px;
+	}
+	.contact_box{
+		background-color: lightgreen;
+		text-align: center;
+		height: auto;
+		width: 50%;
+		float: right;
+		border: none;
+	}
+	.footer{
+		clear: both;
+	}
+	textarea{
+		width: 50%;
+	}
+	.wrap .box1{
+		padding: 70px 0px 0px 0px;
+		float: left;
+		margin: 0px;
+		width: 70%;
+		height:300px;
+	}
+	.wrap img{
+		float: right;
+		height: 370px;
+		width: 30%;
+	}
+	.box2{
+		clear: both;
+	}
+}
